@@ -1,8 +1,8 @@
 <VirtualHost *:{{ http_port }}>
    ServerAdmin webmaster@localhost
-   ServerName {{ http_host }}
-   ServerAlias www.{{ http_host }}
+   ServerName {{ http_host }}.dev
+   ServerAlias www.{{ http_host }}.dev
    DocumentRoot /var/www/{{ http_host }}
    ErrorLog ${APACHE_LOG_DIR}/error.log
    CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>su
+</VirtualHost>
